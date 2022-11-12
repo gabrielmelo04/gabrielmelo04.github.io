@@ -190,6 +190,8 @@
 
     #container{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     #bio-container{
@@ -239,8 +241,6 @@
 
     #container{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     #bio-container{
