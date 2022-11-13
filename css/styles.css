@@ -224,7 +224,7 @@
 
     .skills-box{
         flex: 1 1 100% ;
-        max-width: 100%;
+        max-width: auto;
         margin-bottom: 40px;
         text-align: center;
     }
@@ -273,7 +273,7 @@
 
     .skills-box{
         flex: 1 1 100% ;
-        max-width: 100%;
+        max-width: auto;
         margin-bottom: 40px;
         text-align: center;
     }
