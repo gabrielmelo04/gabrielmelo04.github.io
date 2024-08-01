@@ -1,114 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Gabriel Melo</title>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+
     <!-- Dev Icon Fonts-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">     
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
     <!-- Css do projeto -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <main id="container">
+
         <aside id="bio-container">
-            <h2>Gabriel Melo</h2>
-            <img id="bio-image" src="img/profile.jpg" alt="Gabriel Melo" />
-            <p>Meu nome é Gabriel Melo sou <span class="highlight">Cientista da Computação</span></p>
-            <p id="welcome-text">Seja bem-vindo!</p>
+            <img id="bio-image" src="img/profile.jpg" alt="foto do meu perfil" />
+            <div class="mini-perfil">
+                <p>👨🏻 Gabriel Melo</p>
+                <p>👨🏻‍💻 Cientista da computação</p>
+            </div>
             <ul id="social-container">
                 <li><a href="https://www.linkedin.com/in/gabriel-melo-63698bb6" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
                 <li><a href="https://www.instagram.com/gabrielmelo9719" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://github.com/gabrielmelo04" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
             </ul>
             <div id="email-container">
                 <ion-icon name="mail-outline"></ion-icon><a href="mailto:gmelo8720@gmail.com">gmelo8720@gmail.com</a>
             </div>
         </aside>
+
         <section id="about-container">
-            <h1 id="name">Gabriel Melo</h1>
-            <p id="title"><span class="highlight">Cientista da Computação</span></p>
-            <p class="description">Sou Cientista da Computação com uma sólida especialização em desenvolvimento Full-Stack e uma ampla gama de habilidades técnicas. Minhas principais competências incluem:
 
-Desenvolvimento Full-Stack: Expertise em criar soluções completas e integradas, gerenciando tanto o front-end quanto o back-end para desenvolver aplicações web e móveis escaláveis e eficientes.
+            <section id="perfil">
+                <h2 id="perfil-title">Um pouco sobre mim:</h2>
 
-Front-End:
+                <p class="description">Sou Cientista da Computação com uma sólida especialização em desenvolvimento Full-Stack e uma ampla gama de habilidades técnicas. <label>Minhas principais competências incluem:</label></p>
 
-HTML5 & CSS: Proficiente na construção de layouts responsivos e acessíveis utilizando HTML5 e CSS, garantindo uma experiência de usuário intuitiva e atraente.
-JavaScript: Experiência em programação JavaScript para criar funcionalidades dinâmicas e interativas em aplicações web.
-React.js: Competente em desenvolver interfaces de usuário complexas e reativas com React.js, incluindo a criação de componentes reutilizáveis e gerenciamento de estado.
-Next.js: Habilidade em usar Next.js para otimizar a performance de aplicações web por meio de renderização do lado do servidor (SSR) e geração de sites estáticos (SSG).
-Back-End:
+                <p class="subtitle">Front-end:</p>
+                <ul>
+                    <li>- <strong>HTML & CSS3:</strong> Proficiente na construção de layouts responsivos e acessíveis utilizando HTML5 e CSS, garantindo uma experiência de usuário intuitiva e atraente.</li>
+                    <li>- <strong>JavaScript:</strong> Experiência em programação JavaScript para criar funcionalidades dinâmicas e interativas em aplicações web.</li>
+                    <li>- <strong>React.js:</strong> Competente em desenvolver interfaces de usuário complexas e reativas com React.js, incluindo a criação de componentes reutilizáveis e gerenciamento de estado.</li>
+                    <li>- <strong>Next.js:</strong> Habilidade em usar Next.js para otimizar a performance de aplicações web por meio de renderização do lado do servidor (SSR) e geração de sites estáticos (SSG).</li>
+                </ul>
 
-Node.js: Experiência em criar e gerenciar servidores e APIs RESTful com Node.js, facilitando a comunicação entre o front-end e o back-end e suportando aplicações de alta performance.
-MySQL: Conhecimento em design e administração de bancos de dados relacionais com MySQL, incluindo a modelagem de dados, otimização de consultas e garantia de integridade dos dados.
-Mobile:
+                <p class="subtitle">Back-end:</p>
+                <ul>
+                    <li>- <strong>Node.js:</strong> Tenho experiência significativa em desenvolvimento com Node.js, com um foco particular na criação e gestão de APIs RESTful.</li>
+                    <li>- <strong>MySQL:</strong> Conhecimento em design e administração de bancos de dados relacionais com MySQL, incluindo a modelagem de dados, otimização de consultas e garantia de integridade dos dados.</li>
+                </ul>
+    
+                <p class="subtitle">Mobile:</p>
+                <ul>
+                    <li>- <strong>React Native:</strong> Habilidade em desenvolver aplicações móveis nativas e híbridas com React Native, oferecendo uma experiência de usuário consistente e fluida em dispositivos iOS e Android.</li>
+                </ul>
 
-React Native: Habilidade em desenvolver aplicações móveis nativas e híbridas com React Native, oferecendo uma experiência de usuário consistente e fluida em dispositivos iOS e Android.
-Sistemas Digitais e Hardware:
+                <a id="btn-projects" href="https://github.com/gabrielmelo04" target="_blank"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+                
+            </section>
 
-Arduino: Experiência em programação e desenvolvimento de projetos com Arduino, integrando hardware com software para criar protótipos e sistemas embarcados inovadores.
-Sistemas Digitais: Familiaridade com o design e a implementação de sistemas digitais, compreendendo a interação entre hardware e software para otimizar a funcionalidade e a eficiência dos projetos.</p>
-            <a id="btn-projects" href="https://github.com/gabrielmelo04" target="_blank"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
-            <h2 id="skills-sections-title">Minhas Skills</h2>
-            <p class="description">Conheça as tecnologias que eu domino:</p>
-            <div class="skills-container">
-                <div class="skills-box">
-                    <p class="skills-title">Front-end</p>
-                    <i class="devicon-html5-plain colored"></i>
-                    <i class="devicon-css3-plain colored"></i>
-                    <i class="devicon-javascript-plain colored"></i>
-                    <i class="devicon-react-plain colored"></i>
-                    <i class="devicon-nextjs-original-wordmark"></i>
+            <section id="skills">
+                <h2 id="skills-title">Minhas Skills</h2>
+                <p class="description">Conheça as tecnologias que eu domino:</p>
+
+                <div class="skills-container">
+
+                    <div class="skills-box">
+                        <p class="skills-title">Front-end</p>
+                        <div class="skills-icons">
+                            <i class="devicon-html5-plain colored"  title="HTML5"></i>
+                            <i class="devicon-css3-plain colored" title="CSS3"></i>
+                            <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                            <i class="devicon-react-plain colored" title="React.js"></i>
+                            <i class="devicon-nextjs-plain" style="color: #fff;" title="Next.js"></i>
+                        </div>
+                    </div>
+
+                    <div class="skills-box">
+                        <p class="skills-title">Back-end</p>
+                        <div class="skills-icons">
+                            <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+                            <i class="devicon-prisma-original" title="Prisma"></i>
+                            <i class="devicon-sequelize-plain colored" title="Sequelize"></i>
+                            <i class="devicon-express-original" title="Express"></i>
+                            <i class="devicon-fastify-plain" style="color: #fff" title="Fastify"></i>
+                            <i class="devicon-vitest-plain colored" title="Vitest"></i> 
+                        </div>     
+                    </div>
+
+                    <div class="skills-box">
+                        <p class="skills-title">Mobile</p>
+                        <div class="skills-icons">
+                            <i class="devicon-react-plain colored" title="React Native"></i>
+                            <i class="devicon-androidstudio-plain colored" title="Android Studio"></i>
+                        </div>
+                    </div>
+
+                    <div class="skills-box">
+                        <p class="skills-title">Database</p>
+                        <div class="skills-icons">
+                            <i class="devicon-mysql-plain colored" title="MySQL"></i>
+                            <i class="devicon-sqlite-plain colored" title="SQLite"></i>
+                            <i class="devicon-postgresql-plain" title="PostgreSQL"></i>
+                            <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
+                        </div>
+                    </div>
+
+                    <div class="skills-box">
+                        <p class="skills-title">Frameworks</p>
+                        <div class="skills-icons">
+                            <i class="devicon-vscode-plain colored" title="Visual Studio Code"></i>
+                            <i class="devicon-insomnia-plain colored" title="Insomnia"></i>
+                            <i class="devicon-git-plain colored" title="Git"></i>
+                            <i class="devicon-github-original" title="GitHub"></i>
+                            <i class="devicon-docker-plain colored" title="Docker"></i> 
+                        </div>        
+                    </div>
+
+                    <div class="skills-box">
+                        <p class="skills-title">Desenvolvedor de circuitos e IoT</p>
+                        <div class="skills-icons">
+                            <i class="devicon-arduino-plain colored" title="Arduino"></i>
+                            <i class="devicon-cplusplus-plain colored" title="C++"></i>
+                        </div>
+                    </div>
+
+                    <div class="skills-box">
+                        <p class="skills-title">Gerenciadores de pacotes</p>
+                        <div class="skills-icons">
+                            <i class="devicon-npm-original-wordmark colored" title="NPM"></i>
+                            <i class="devicon-yarn-plain colored" title="Yarn"></i>
+                        </div>
+                    </div>
+
+                    <div class="skills-box">
+                        <p class="skills-title">Bibliotecas e outros</p>
+                        <div class="skills-icons">
+                            <i class="devicon-pandas-plain" style="color: #fff" title="Pandas"></i>
+                            <i class="devicon-matplotlib-plain" style="color: #fff" title="Matplotlib"></i>
+                            <i class="devicon-axios-plain colored" title="Axios"></i>
+                            <i class="devicon-bootstrap-plain colored" title="Bootstrap"></i>
+                            <i class="devicon-typescript-plain colored"></i> 
+                        </div>
+                    </div>
+
+                    <div class="skills-box">
+                        <p class="skills-title">Design De Projetos</p>
+                        <div class="skills-icons">
+                            <i class="devicon-xd-plain colored" title="Adobe XD"></i>
+                            <i class="devicon-figma-plain colored" title="Figma"></i>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="skills-box">
-                    <p class="skills-title">Back-end</p>
-                    <i class="devicon-nodejs-plain-wordmark"></i>
-                    <i class="devicon-express-original-wordmark"></i>
-                    <i class="devicon-fastify-plain"></i>
-                    <i class="devicon-sequelize-plain colored"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Database</p>
-                    <i class="devicon-mysql-plain colored"></i>
-                    <i class="devicon-mongodb-plain colored"></i>
-                    <i class="devicon-firebase-plain colored"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">ferramenta de desenvolvedor</p>
-                    <i class="devicon-vscode-plain colored"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Mobile Frameworks</p>
-                    <i class="devicon-react-plain colored"></i>
-                    <i class="devicon-androidstudio-plain colored"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Desenvolvedor De Circuitos e IoT</p>
-                    <i class="devicon-arduino-plain colored"></i>
-                    <i class="devicon-cplusplus-plain colored"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Gerenciadores de pacotes</p>
-                    <i class="devicon-npm-original-wordmark colored"></i>
-                    <i class="devicon-yarn-plain colored"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Outros Framework</p>
-                    <i class="devicon-git-plain colored"></i>
-                    <i class="devicon-github-original"></i>
-                </div>
-                <div class="skills-box">
-                    <p class="skills-title">Design De Projetos</p>
-                    <i class="devicon-xd-plain colored"></i>
-                    <i class="devicon-figma-plain colored"></i>
-                </div>
-            </div>
+            </section>
+
         </section>
+        
     </main>
 
     <!--Icones-->
