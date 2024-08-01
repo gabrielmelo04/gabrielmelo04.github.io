@@ -105,16 +105,6 @@
     max-width: 32px;
 }
 
-@media (min-width: 600px){
-    #container{
-        flex-direction: row;
-    }
-
-    #bio-container{
-        min-height: 100vh;
-    }
-}
-
 /*About container */
 
 #about-container{
@@ -128,6 +118,16 @@
     flex: 1 1 75%;
     
     background-color: var(--about-bg-color);
+}
+
+@media (min-width: 600px){
+    #container{
+        flex-direction: row;
+    }
+
+    #bio-container{
+        min-height: 100vh;
+    }
 }
 
 /* Section Perfil */
