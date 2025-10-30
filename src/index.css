@@ -1,0 +1,64 @@
+@import "tailwindcss";
+/* @import "@tailwindcss/line-clamp"; */
+
+
+@theme inline{
+  --default-font-family: JetBrain Mono, monospace
+}
+
+@layer base{
+  body{
+    @apply bg-gray-900 antialiased
+    /* background: linear-gradient(to bottom, #0f172a, #0b1220); */
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #222222;
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #404040;
+  }
+
+  /* Paginação do Swiper */
+  /* .swiper-pagination {
+    margin-bottom: 2rem;
+  } */
+
+  /* Setas do Swiper */
+  .swiper-button-next,
+  .swiper-button-prev {
+    @apply text-red-400 w-10 h-10;
+  }
+
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    @apply text-red-500;
+  }
+
+  /* Bolinhas da paginação */
+  .swiper-pagination-bullet {
+    @apply bg-red-700 opacity-70;
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply bg-red-500 opacity-100;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE e Edge */
+  scrollbar-width: none; /* Firefox */
+}
+}
+
+
+
