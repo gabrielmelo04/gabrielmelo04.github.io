@@ -10,7 +10,7 @@ export function Contact() {
       <div className="w-full flex flex-col items-center">
         <div className="flex flex-col items-center gap-3">
           <img
-            src="https://gabrielmelo04.github.io/img/profile.jpg"
+            src="https://github.com/gabrielmelo04.png"
             alt="Gabriel Melo"
             className="w-[150px] mb-2 h-fit rounded-xl drop-shadow-xl border-2 border-white/20"
           />
