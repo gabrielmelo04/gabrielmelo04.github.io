@@ -2,6 +2,7 @@ import ProjetoPrompts from './assets/projects/project_prompts.png';
 import ProjetoAgendamento from './assets/projects/project_agend.png';
 import ProjetoRoomsReservation from './assets/projects/project_rooms_reservation.png';
 import ProjetoBrevly from './assets/projects/project_brevly.png';
+import ProjetoWebhooks from './assets/projects/project_webhooks.png'
 
 export const projects = [
   {
@@ -46,6 +47,17 @@ export const projects = [
       'Criei um sistema eficiente de links encurtados, combinando PostgreSQL com Drizzle ORM para gerenciamento robusto de dados. Além disso, utilizei Cloudflare para armazenar e organizar CSV com listas de links, garantindo alta performance e escalabilidade.',
     link: 'https://github.com/gabrielmelo04/projeto-brevly-desafio-01',
     url: 'https://github.com/gabrielmelo04/projeto-brevly-desafio-01',
+    eixoX: '-101%',
+  },
+  {
+    id: 5,
+    image: ProjetoWebhooks,
+    title: 'Webhook Inspector',
+    tags: ['React.js', 'Node.js', 'Drizzle', 'Tailwind CSS', 'PostgreSQL', 'Fastify'],
+    description:
+      'Aplicação para inspecionar e gerenciar webhooks em tempo real. Interface em React com visualização de requisições, headers, body e query params. Inclui geração de handlers com IA. Arquitetura monorepo com backend Fastify/TypeScript e PostgreSQL.',
+    link: 'https://github.com/gabrielmelo04/webhook-inspector',
+    url: 'https://github.com/gabrielmelo04/webhook-inspector',
     eixoX: '-101%',
   },
 ];
